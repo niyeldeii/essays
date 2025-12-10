@@ -84,7 +84,7 @@ Before Opus 4.5, something was missing. I could always see when an LLM was doing
 
 Opus 4.5 feels like heaven and earth compared to what came before. It's just reliable. Not perfect, but reliable enough that I trust it for real work. I still review, but I'm catching fewer mistakes.
 
-And this is currently cutting edge. But we all know how "cutting edge" lasts in this industry.
+And this is currently cutting edge. But we all know how long "cutting edge" lasts in this industry.
 
 Usually less than a few months before something better arrives.
 
