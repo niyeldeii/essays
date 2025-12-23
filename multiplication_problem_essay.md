@@ -16,15 +16,13 @@ For the cost of API tokens, you can deploy Agent Smith.
 
 This isn't hypothetical. In early 2025, researchers at a university secretly infiltrated a popular Reddit forum with AI bots. The bots weren't detected. They influenced discussions, shaped opinions, and only came to light when the researchers published their paper.
 
-The outrage was predictable. But the real story wasn't the ethics of the experiment—it was the proof of concept.
+The outrage was predictable. But forget the ethics of the experiment—what mattered was the proof of concept.
 
 If a university research team can do this with a handful of bots and limited resources, what can a state actor do? What can a political campaign do? What can anyone with motivation and a credit card do?
 
 We're not prepared for this.
 
-When I read about the Reddit infiltration, I decided to make my own foray into the problem.
-
-I built a bot detection system for Twitter—now X—using RoBERTa-large as the foundation. The idea was to combine the language understanding capabilities of a transformer model with numerical and behavioral features from user profiles: follower counts, account age, verification status, posting patterns.
+When I read about the Reddit infiltration, I decided to make my own foray into the problem. I built a bot detection system for Twitter—now X—using RoBERTa-large as the foundation. The idea was to combine the language understanding capabilities of a transformer model with numerical and behavioral features from user profiles: follower counts, account age, verification status, posting patterns.
 
 The architecture was straightforward. RoBERTa processes the tweet text and produces an embedding from the [CLS] token. That embedding gets concatenated with the numerical and boolean features. The combined vector passes through a classification head—layer normalization, a hidden layer, dropout, and a final linear layer that outputs bot or not-bot.
 
@@ -32,9 +30,7 @@ I froze the first 20 of RoBERTa's 24 encoder layers and only fine-tuned the top 
 
 The results were promising but imperfect. On sample data, the model achieved 67% accuracy, 0.60 F1, and 0.64 ROC AUC. Not production-ready, but enough to demonstrate the approach.
 
-The bigger lesson was what I learned about the problem itself.
-
-Bot detection is an arms race, and the bots are winning.
+The bigger lesson was what I learned about the problem itself. Bot detection is an arms race, and the bots are winning.
 
 Traditional detection relied on behavioral signals. Bots posted too frequently. They had suspicious follower ratios. They used repetitive language. Their accounts were too new.
 
@@ -124,15 +120,15 @@ My project was small, imperfect, and is probably already outdated. The bots have
 
 But it taught me to think about the problem correctly.
 
-We're not building classifiers. We're building immune systems.
+The goal isn't building classifiers. What we need are immune systems.
 
-Immune systems don't prevent infection perfectly. They detect, respond, learn, and adapt. They have memory. They coordinate across the body. They accept that some pathogens will get through, and they focus on limiting damage and building resistance.
+Immune systems don't prevent infection perfectly. They detect threats, mount responses, remember pathogens, and evolve over time. They coordinate across the body and accept that some invaders will get through, focusing instead on limiting damage and building resistance.
 
 That's the mental model for AI safety in the age of generative models.
 
-The multiplication problem—the Agent Smith scenario—is real. Anyone can now create armies of autonomous agents that can write, argue, manipulate, and deceive at scale.
+The multiplication problem—the Agent Smith scenario—is real. Anyone can now create armies of autonomous agents capable of writing propaganda, arguing positions, manipulating opinions, and deceiving at scale.
 
-The only response is to build systems that detect, respond, and adapt at the same scale.
+The only response is to build systems that can match that scale—detecting threats, responding quickly, and adapting as the adversaries evolve.
 
 This is one of the reasons I started this blog. Not just to explore the technical capabilities of these systems, but to think through their implications.
 

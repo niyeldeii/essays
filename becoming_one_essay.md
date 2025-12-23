@@ -62,13 +62,9 @@ AI now generates an estimated 41% of all code written in 2025.
 
 And it's not just Cursor. There's Windsurf, Replit, Bolt.new, Lovable, Claude Code, Amazon Q—the entire ecosystem is exploding. Cognition's Devin, the "AI software engineer," is pushing into agentic territory. The tools are everywhere.
 
-These numbers are real. The productivity gains are real. Teams ship faster. Barriers to entry are lower.
+These numbers are real. The productivity gains are real. Teams ship faster, barriers to entry are lower, and that's genuinely good.
 
-And that's genuinely good.
-
-Product managers can now prototype features themselves. Designers can bring their mocks to life without waiting for engineering time. People with ideas but no formal CS background can build working applications.
-
-We hear about vibecoded apps making real revenue. Indie hackers shipping faster than ever. Solo founders building things that would have required teams five years ago.
+Product managers can now prototype features themselves. Designers can bring their mocks to life without waiting for engineering time. People with ideas but no formal CS background can build working applications. We hear about vibecoded apps making real revenue—indie hackers shipping faster than ever, solo founders building things that would have required teams five years ago.
 
 The democratization of creation is happening. The sorcery is spreading beyond the monastery walls.
 
@@ -90,9 +86,7 @@ Usually less than a few months before something better arrives.
 
 In a year's time, Opus 4.5-level models will be available to everyone at 100x less the price. Look at what the Chinese open-source labs are doing—DeepSeek, Qwen, Yi. They're shipping capable models at a fraction of the cost. The democratization isn't just in tools; it's in the models themselves.
 
-The security concerns? Being addressed. The code quality issues? Improving. The architectural weirdness? Getting better.
-
-The dark side is real, but it's shrinking.
+Security concerns are being addressed. Code quality is improving. The architectural weirdness is fading. The dark side is real, but it's shrinking.
 
 That said, there's still tribalism.
 
@@ -116,17 +110,15 @@ My traditional engineering background influences how I think about this. When I'
 
 These days, I consider myself more of a systems architect than a line-by-line coder.
 
-What I do is high-level abstract architecture. I define the shape of the system—the components, the interfaces, the data flows, the invariants. Then I use AI to fill in the implementation. I review. I steer. I correct.
+What I do is high-level abstract architecture. I define the shape of the system—components, interfaces, data flows, invariants—and then use AI to fill in the implementation. I review. I steer. I correct.
 
 The mental model is: I'm the sorcerer; the AI is the familiar. I set the intent; it does the conjuring. But I still inspect the magic.
 
-This is different from both extremes.
+Rejecting AI and writing everything yourself is a losing strategy—you'll be outcompeted by people who use the tools.
 
-It's not "reject AI and write everything yourself." That's a losing strategy. You'll be outcompeted by people who use the tools.
+But handing everything to AI and accepting whatever it produces leads to security holes, architectural drift, and codebases nobody understands.
 
-It's not "hand everything to AI and accept whatever it produces." That's how you get security holes, architectural drift, and a codebase nobody understands.
-
-It's integration. Symbiosis. Using the AI as the minion it is and orchestrating it properly.
+The answer is integration. Symbiosis. Using the AI as the minion it is and orchestrating it properly.
 
 The skills that matter now are different than they used to be.
 
@@ -142,7 +134,7 @@ The lesson isn't that AI is useless. The lesson is that AI-human integration is 
 
 That's the craft now.
 
-Software engineering is more than just code. It always has been. It's systems design, architecture, understanding requirements, making tradeoffs, communicating with stakeholders, thinking about maintainability and scale.
+Software engineering is more than code. It always has been. Systems design, architecture, requirements, tradeoffs, stakeholder communication, maintainability, scale—the code is just one artifact among many.
 
 The code is just the artifact. The thinking is the work.
 
@@ -166,7 +158,7 @@ Ultimately, the models will keep getting better. Claude 5, GPT-5, whatever comes
 
 When that happens, the skill that matters won't be "can you write code." It'll be "can you specify what should be built and verify that it was built correctly."
 
-That's systems thinking. That's engineering judgment. That's architecture.
+Call it systems thinking, engineering judgment, architecture—whatever label fits. The point is the same.
 
 The code is becoming commoditized. The thinking never will be.
 

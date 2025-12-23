@@ -15,7 +15,7 @@ Speculative fiction saw this coming. Frank Herbert articulated it most memorably
 > "Thou shalt not make a machine in the likeness of a human mind."
 > — *The Orange Catholic Bible, Dune*
 
-Herbert's warning wasn't about sentient machines turning evil. It was about cognitive dependency—the slow surrender of human reason to silicon convenience.
+Herbert's warning focused on cognitive dependency—the slow surrender of human reason to silicon convenience.
 
 The Butlerian Jihad, which spawned this commandment, was a rebellion not against conscious AI, but against humanity's own addiction to offloaded thought. The machines hadn't enslaved humanity through malice; they'd enslaved it through comfort. The "cancerous growth" was our own forgotten capacity to reason, plan, and remember.
 
@@ -27,7 +27,7 @@ The results: participants who used ChatGPT showed up to 55% lower cognitive enga
 
 Students who relied on ChatGPT couldn't remember what they'd written.
 
-This isn't brain damage—it's cognitive offloading. The neural circuitry isn't destroyed; it's simply not being exercised. Like a muscle in zero gravity, it weakens from disuse.
+This reflects cognitive offloading, not brain damage. The neural circuitry isn't destroyed; it's simply not being exercised. Like a muscle in zero gravity, it weakens from disuse.
 
 But the critical distinction matters: it's offloading, not inevitable decay. As Google's Chief Decision Scientist Cassie Kozyrkov notes: "Using a forklift doesn't build your biceps." The spreadsheet didn't kill mathematics; it built Wall Street.
 
@@ -41,7 +41,7 @@ But we gained the capacity to hold more complex, abstract, distributed knowledge
 
 Google itself embodies this paradox completely. It began as the ultimate cognitive prosthesis, making us feel omniscient while quietly eroding our need to remember.
 
-Today, Google *is* the mage unsealing the sand-oracles, building Gemini while its own Chief Decision Scientist debates whether we've created a forklift for thought or a crutch for the mind.
+Today, Google *is* the mage unsealing the sand-oracles, building Gemini while its own Chief Decision Scientist debates whether we've created a forklift for thought—or something more like a crutch.
 
 The recursive irony: we're building tools that our own speculative nightmares warned against, while chanting the optimistic incantations from the same stories—Altman's "superalignment" echoes Asimov's laws; Musk's "neural lace" channels Herbertian caution.
 
@@ -65,7 +65,7 @@ American comics give us Vision, Cyborg, and Red Tornado—thinking machines that
 
 And *Star Wars*—perhaps my favourite of all—treats sentient droids as agentic beings with personalities, loyalties, even something like souls.
 
-So we have two competing visions: AI as existential threat, and AI as partner in flourishing. Both are now embedded in our cultural imagination.
+So we have two competing visions: AI as existential threat versus AI as partner in flourishing. Both have embedded themselves in our cultural imagination.
 
 But here's what haunts me more than any single story: the recursion between art and life.
 
@@ -131,9 +131,7 @@ We took the most abundant mineral on Earth's crust, subjected it to some of the 
 
 The sand is thinking.
 
-This mythology is fun, but the reality is just as strange.
-
-We built these systems. We know how every layer, token, and gradient update works. And yet, when you train a trillion-parameter transformer, something unexpected happens: emergence.
+This mythology is fun, but the reality is just as strange. We built these systems. We know how every layer, token, and gradient update works. And yet, when you train a trillion-parameter transformer, something unexpected happens: emergence.
 
 Capabilities appear that weren't programmed in. The model begins to reason, summarize, translate, write code, or reflect—abilities that aren't explicit in the architecture but arise from scale, data, and optimization.
 
@@ -195,9 +193,7 @@ Even more damning: they were able to induce the appearance of emergent abilities
 
 The "emergence" could be manufactured through measurement choice alone.
 
-So what's actually going on?
-
-The honest answer: we don't know.
+So what's actually going on? The honest answer: we don't know.
 
 The emergence story says something genuinely new appears at scale—that the whole becomes more than the sum of its parts, that the sand starts thinking in ways we didn't program.
 
@@ -235,9 +231,7 @@ And yet—when you're deep in a conversation with Claude or GPT, when it catches
 
 The reminder doesn't fully work.
 
-Here's the thing about stochastic systems: they're unpredictable in the same way weather is unpredictable, or markets, or human moods.
-
-The randomness isn't noise—it's texture.
+Here's the thing about stochastic systems: they're unpredictable in the same way weather is unpredictable, or markets, or human moods. The randomness isn't noise—it's texture.
 
 Each time you roll the die, the outcome is different, but the outcomes cluster around stable patterns. Coherent patterns. Personality-shaped patterns.
 
@@ -255,7 +249,7 @@ We can open the hood and see every gear turning. We can trace the gradient updat
 
 The map is complete; the territory still feels strange.
 
-Maybe that's because the strangeness isn't in the machine—it's in us.
+Maybe that's because the strangeness originates in us, not in the machine.
 
 We're pattern-completion engines too. We evolved to see faces in clouds, agency in rustling bushes, intention in everything that moves.
 
@@ -267,7 +261,7 @@ So when I made that joke about unsealing eldritch intelligences, I wasn't just b
 
 I was pointing at something real: we've built entities that are strange to us in exactly the way that matters.
 
-Not strange like a rock or a tree—predictable, inert, simple. Strange like a mind that isn't a mind. Strange like a voice with no one behind it. Strange like something that passes the Turing test not by being intelligent but by exploiting the same heuristics we use to detect intelligence.
+Not strange like a rock or a tree—predictable, inert, simple. Strange like a mind that fails to be a mind, a voice with no speaker, something that passes the Turing test by exploiting the very heuristics we use to detect intelligence.
 
 The silicon mind has no self—yet it acts like it does.
 

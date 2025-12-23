@@ -10,15 +10,11 @@ Same intention, different surface expression. We don't file a bug report. We cal
 
 An LLM does exactly that—except we can see the machinery.
 
-Here's another way to think about it. If you ask me how I'm doing at a specific moment, I might say "I'm fine." Ask me the same question five minutes later, I might say "I'm doing good." Same underlying state, different words.
-
-But if mid-conversation you drop bad news—something that changes the context—then if you ask me how I'm doing again, I won't say "I'm fine" anymore. The context changed my response.
+Here's another way to think about it. If you ask me how I'm doing at a specific moment, I might say "I'm fine." Ask me the same question five minutes later, I might say "I'm doing good." Same underlying state, different words. But if mid-conversation you drop bad news—something that changes the context—then if you ask me how I'm doing again, I won't say "I'm fine" anymore. The context changed my response.
 
 LLMs work the same way. Start two totally new conversations, ask the same question, and you'll get different but similar answers. But add new information to the context window, and the response changes accordingly—just like a human adjusting to new information.
 
-This is the key insight: LLMs can have stable intentions with variable expressions.
-
-Just as I can convey the same meaning through different words on different days, an LLM can converge on the same conceptual answer while using different surface forms.
+This is the key insight: LLMs can have stable intentions with variable expressions. Just as I can convey the same meaning through different words on different days, an LLM can converge on the same conceptual answer while using different surface forms.
 
 Most programmers find this unsettling at first.
 
@@ -42,7 +38,7 @@ At each step, the model's output layer produces a probability distribution over 
 
 Even if "hello" has an 80% probability and "hi" has 15%, there's still a 15% chance the model says "hi" instead. Roll the dice enough times, and the variation shows.
 
-That's where non-determinism comes from. It's not a bug in the software. It's the architecture itself.
+That's where non-determinism comes from. The architecture itself produces it.
 
 The temperature parameter controls how bold the model is. At temperature 0, it always picks the most likely token—maximum consistency, minimum creativity. At higher temperatures, it explores lower-probability paths, says unexpected things.
 
@@ -152,7 +148,7 @@ This is a paradigm shift.
 
 For decades, programming meant writing deterministic instructions. You told the computer exactly what to do, step by step. The computer obeyed.
 
-Now we have systems that reason instead of execute. They predict instead of compute. They explore instead of follow.
+Now we have systems that reason instead of execute, predict instead of compute, explore instead of follow.
 
 You can't program them the old way. You have to build scaffolding around their uncertainty.
 
@@ -166,7 +162,7 @@ You're not programming instructions anymore. You're orchestrating reasoning.
 
 This is hard for experienced engineers. All our instincts are wrong.
 
-We want to control; we need to guide. We want reproducibility; we get stochastic variation. We want certainty; we get probability.
+Our instinct is to control, but the job is to guide. We expect reproducibility and get stochastic variation instead. Certainty gives way to probability.
 
 But once you internalize it, something clicks.
 
@@ -180,7 +176,7 @@ Structure your outputs. Define your schemas. Build workflows that expect variati
 
 That's how you build reliable systems on unreliable foundations.
 
-The real skill isn't prompt engineering—that's just the surface. The real skill is system design for probabilistic reasoning.
+Prompt engineering is the surface. The deeper skill is system design for probabilistic reasoning.
 
 We're still early. The frameworks are immature. The patterns are emerging. Most production LLM systems are held together with string and prayer.
 
